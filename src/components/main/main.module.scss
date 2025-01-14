@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Maru+Gothic&display=swap');
+
+main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+
+    img{
+        width: 50vw;
+    }
+    .texto{
+        
+        color: #3E3970;
+        font-size: 28px;
+        width: 35vw;
+        text-align: end;
+        justify-content: space-around;
+        font-family: sans-serif;
+    
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+
+.textinho{
+    font-size: 36px;
+}
+
+@media  (max-width: 768px) {
+    main {
+        flex-direction: column; // Coloca o conteúdo em coluna
+        align-items: center;
+
+        img {
+            padding-top: 20px;
+            width: 100vw; // Reduz a largura da imagem
+        }
+
+        .texto {
+            width: 80%; // Ajusta a largura do texto
+            text-align: center; // Centraliza o texto
+            font-size: 24px;
+            font-family: sans-serif;
+            h1 {
+                font-size: 36px; // Ajusta o tamanho do título
+            }
+        }
+    }
+
+    .textinho {
+        font-size: 28px; // Reduz tamanho para telas menores
+    }
+}
