@@ -1,21 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Zen+Maru+Gothic&display=swap');
 
 footer{
     display: flex;
     
 
     section{
-        margin-left: 1000px;
+
+        margin-top: 20px;
+        margin-left: 1100px;
         justify-content: space-between;
+        
 
         img{
             padding-left: 20px;
             height: 8vh;
+            
         }
 
         img:hover{
             cursor: pointer;
             
         }
+    }
+}
+
+@media(max-width:768px){
+    img{
+
+        margin-top: 20px;
+        margin-left: 40px;
+        align-items: center;
     }
 }
